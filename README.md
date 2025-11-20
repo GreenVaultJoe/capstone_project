@@ -25,12 +25,12 @@ Only aggregated, non-sensitive datasets will be used for this academic project.
 ## Repository Structure  
 This repository follows a simple but scalable structure to support analysis and reproducibility:
 data/
-    raw_data/ # Original datasets (unchanged)
-    processed_data/ # Cleaned and prepared datasets
-    analysis/ # Additional analysis artifacts
-    metadata/ # Data dictionaries & documentation
-    outputs/ # Figures, tables, and final results
-    archive/ # Old or superseded files
+    - raw_data/ - Original datasets (unchanged)
+    - processed_data/ - Cleaned and prepared datasets
+    - analysis/ - Additional analysis artifacts
+    - metadata/ - Data dictionaries & documentation
+    - outputs/ - Figures, tables, and final results
+    - archive/ - Old or superseded files
 
 scripts/
     README.txt # Notes on code organization
